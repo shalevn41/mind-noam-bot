@@ -30,4 +30,19 @@ A Telegram AI assistant that answers questions in Hebrew using real-time web sea
 ## ⚙️ Setup
 
 1. Clone the repo
-2. Create a `.env` file with:
+2. Create a .env file with:
+TELEGRAM_BOT_TOKEN=your_token
+GROQ_API_KEY=your_key
+TAVILY_API_KEY=your_key
+3. Install dependencies:
+pip install -r requirements.txt
+4. Run:
+python bot.py
+
+## 📦 Deployment
+
+Deployed on Railway for 24/7 uptime.
+
+---
+
+Built by Noam Shalev — AI & No-Code Automation Specialist
